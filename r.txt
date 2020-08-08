@@ -1,6 +1,5 @@
 asgiref==3.2.5                      
-ca-certificates==2020.6.24                     
-certifi==2020.6.20                
+           
 confusable-homoglyphs==3.1.1                    
 dj-database-url==0.5.0                      
 django==2.0.7                    
@@ -25,4 +24,4 @@ vs2015_runtime==14.16.27012
 wheel==0.34.2                   
 whitenoise==4.1.4                      
 wincertstore==0.2              
-zlib==1.2.11               
+zlib==1.2.11   
