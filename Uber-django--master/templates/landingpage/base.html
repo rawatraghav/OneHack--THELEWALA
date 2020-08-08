@@ -8,8 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- STYLING CSS LINKED HERE -->
-    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
- 
+    <link href="{% static 'css/styles.css?version=51' %}" rel="stylesheet">
+
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
@@ -20,12 +20,9 @@
 </head>
 
 <body>
-    
+
     <div class="container-fluid" id="body">
-        {% block content %} 
-
-
-        {% endblock %}
+        {% block content %} {% endblock %}
     </div>
 
 

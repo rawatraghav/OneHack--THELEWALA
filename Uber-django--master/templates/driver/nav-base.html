@@ -1,5 +1,4 @@
-{% load bootstrap3 %} 
-{% load static %}
+{% load bootstrap3 %} {% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +9,7 @@
 
 
     <!-- STYLING CSS LINKED HERE -->
-    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+    <link href="{% static 'css/styles.css?version=51' %}" rel="stylesheet">
 
     <!-- JAVASCRIPT LINKS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
@@ -18,16 +17,12 @@
 
 
     <title> Uber</title>
-    {% block styles%} 
-    {% bootstrap_css %} 
-    {% endblock %}
+    {% block styles%} {% bootstrap_css %} {% endblock %}
 </head>
 
 <body>
 
-        {% block content %} 
-        
-        {% endblock %}
+    {% block content %} {% endblock %}
 
 
 </body>

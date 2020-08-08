@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- STYLING CSS LINKED HERE -->
-    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+    <link href="{% static 'css/styles.css?version=51' %}" rel="stylesheet">
 
     <!-- ULKIT CSS -->
     <link href="{% static 'ulkit/css/uikit.min.css' %}" rel="stylesheet">
@@ -25,23 +25,31 @@
 
 <body>
 
-<div class"container">
-    <div class="homeheaderbody">
+    <div class "container">
+        <div class="homeheaderbody">
 
-        <div class="homeheader">
+            <div class="homeheader">
 
-            <h1>Welcome!</h1>
+                <h1>Welcome!</h1>
+
+            </div>
+
+            <!-- Buttons -->
+            <div class="driverbtn">
+                <a href="/accounts/login/">
+                    <p style="color: white"> LOGIN! </p>
+                </a>
+            </div>
+
+            <div class="passengerbtn">
+                <a href="/accounts/register/">
+                    <p style="color: white;"> SIGNUP! </p>
+                </a>
+            </div>
 
         </div>
-                
-        <!-- Buttons -->
-        <div class="driverbtn"><a href="/accounts/login/"><p style="color: white"> LOGIN! </p></a></div>
-
-        <div class="passengerbtn"><a href="/accounts/register/"><p style="color: white;"> SIGNUP! </p></a></div>
 
     </div>
-
-</div>
 
 </body>
 
